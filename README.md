@@ -8,6 +8,8 @@ Avaliação Portabilis
 
 Instale um servidor web, como o Apache por exemplo(aconselhado).
 
+Instale a plataforma PHP
+
 Instale um banco de dados, como o mysql por exemplo(aconselhado).
 
 Coloque os arquivos do sistema no diretório web do seu servidor web.
