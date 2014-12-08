@@ -1,7 +1,7 @@
 Portabilis
 ==========
 
-Pvaliação Portabilis
+Avaliação Portabilis
 
 
 ////Instalação////
