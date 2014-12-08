@@ -1,0 +1,147 @@
+/* Isac mexendo em css*/
+*
+{
+	border: 0;
+	margin: 0;
+	padding: 3;
+}
+
+table 
+{
+	background-color: #D9D9F3; //muda cor de fundo de todas as linhas da tabela
+	text-align: left;
+	border-spacing: 0px;
+
+	
+}
+
+
+table a, table, tbody, tfoot, tr, th, td 
+{
+   font-family: Georgia, Arial, Helvetica, sans-serif;
+	line-height: 14px;
+	font-size: 18px; //tamanho da fonte do cabeçalho da tabela
+	color: blue;//cor da fonte do cabeçalho da tabela
+}
+tbody td{
+	padding: 5px; //espaço vertical entre tabela de caixa de texto
+	height: 23px;
+}
+
+table caption
+{
+	border-bottom-color: #D9D9F3;
+	border-right-color: #b5370e;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: left;
+	font-style: normal;
+	color: #b5370e; //ja testei e nao achei
+	padding:10px;
+}
+
+table a
+{
+	text-decoration: none;
+	color: #816658;//ja testei e nao achei
+	
+}
+
+table a:hover, table a:focus
+{
+text-decoration: underline;
+}
+table th
+{
+	font-style: normal;
+	font-weight: normal;
+	border-bottom: 1px dotted #D9D9F3; //cor superiorda borda do cabeçalho da tabela.
+	border-top: 1px dotted #D9D9F3; //cor inferior da borda do cabeçalho da tabela.
+	}
+table th a
+{
+	color: #816658; //ja testei e nao achei
+	text-align: left;
+	padding:5px;
+	display: block;
+}
+table .odd th a,table .odd td a,table .odd td{
+	color: #816658;
+}
+
+table th a:hover, table th a:focus, tbody tr:hover th
+{   
+   font-style: normal;   
+   font-weight: normal;   
+   background-color: #999999; // Cor do cabeçalho da tabela ao passar o mouse
+}
+table .odd th,table .odd td{
+	background-color: #aaa096; //ja testei e nao achei
+		border-bottom: 1px dotted #D9D9F3;
+	border-top: 1px dotted #D9D9F3;//ja testei e nao achei
+}
+
+thead th
+{
+	height: 30px;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	padding: 5px;
+	background-color: #816658; //ja testei e nao achei
+	text-transform: none;
+	color: #D9D9F3; //ja testei e nao achei
+	
+}
+tfoot{
+	border-top: 1px dotted #fff;
+	height:30px;
+	
+}
+tfoot th,tfoot td{
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	padding: 5px;
+	background-color: #816658; // já testei e nao achei
+	text-transform: none;
+	color: #D9D9F3;
+}
+
+tbody th
+{
+	color: black; //muda cor do texto do cabeçalho da tabela
+	font-style: normal;
+	padding: 8px; //largura do cabeçalho da tabela
+
+}
+
+td
+{
+   height: 30px; //ja testei e nao achei
+   background-color: #D9D9F3; // testei e nao achei
+   color: #816658; //ja testei e nao achei
+	border-bottom: 1px dotted #FF0000;//cor superior da borda das linhas da tabela.
+	border-top: 1px dotted #FF0000;//cor superior da borda das linhas da tabela.
+	
+}
+
+tbody tr.odd
+{
+	background-color: #D9D9F3; // ja testei e nao achei
+	border-bottom: 1px dotted #FF0000;//ja testei e nao achei
+}
+
+tbody tr:hover td
+{
+  background-color: #999999; //Cor das linhas da tabela ao passar o mouse
+}
+
+tbody tr:hover td,tbody tr:hover th, tbody tr:hover a
+{
+	color: #CCFFFF; //cor da fonte ao passar o mouse
+}
+
+b, strong {font-weight: normal;}
