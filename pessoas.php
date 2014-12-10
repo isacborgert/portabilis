@@ -59,7 +59,8 @@ if ($_POST['pesquisa_filtro']){
               </td><td>
                 <form background-color='transparent' action='$PHP_SELF' method=POST>
                   <input type='hidden' name='ver_pessoa' value='".$linha['cd_pessoa']."' /> <!-- para funcinar no firefox -->
-                  <input type='image' src='botoes/go.png' width='25' height='25' title='Ver cadastro' value='".$linha['cd_pessoa']."' name='ver_pessoa'/>   
+                  <input type='image' src='botoes/go.png' width='25' height='25' title='Ver cadastro' value='".$linha['cd_pessoa']."' name='ver_pessoa'/>
+                  </form> 
               </td>
             </tr>";
     }
